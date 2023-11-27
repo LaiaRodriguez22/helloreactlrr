@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Component from './Component';
+
 
 function App() {
   return (
@@ -7,6 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
+          Hello world
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
@@ -17,6 +20,7 @@ function App() {
         >
           Learn React
         </a>
+        <Component />
       </header>
     </div>
   );
